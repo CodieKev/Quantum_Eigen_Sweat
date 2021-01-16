@@ -1,0 +1,62 @@
+y1
+
+General model:
+     f(x) = a1/(b1+c1*exp(-d1*x))+a2/(1+c2*exp(-d2*x))+e
+Coefficients (with 95% confidence bounds):
+       a1 =       24.26  (-1.922e+07, 1.922e+07)
+       a2 =      -1.085  (-4.456, 2.286)
+       b1 =       37.21  (-2.947e+07, 2.947e+07)
+       c1 =       7.283  (-5.769e+06, 5.769e+06)
+       c2 =     0.01759  (-0.06737, 0.1026)
+       d1 =        0.62  (0.2136, 1.026)
+       d2 =      0.7687  (0.2522, 1.285)
+       e =      0.8706  (0.8638, 0.8775)
+
+Goodness of fit:
+  SSE: 0.0661
+  R-square: 0.9889
+  Adjusted R-square: 0.9882
+  RMSE: 0.02429
+
+
+
+z1
+
+General model:
+     f(x) = a1/(1+c1*exp(-d1*x))+a2/(1+c2*exp(-d2*x))+e
+Coefficients (with 95% confidence bounds):
+       a1 =      -2.661  (-29.97, 24.65)
+       a2 =       4.206  (-23.1, 31.51)
+       c1 =    0.004604  (-0.04875, 0.05796)
+       c2 =    0.005635  (-0.01267, 0.02394)
+       d1 =       1.033  (0.4753, 1.592)
+       d2 =       1.307  (-0.3348, 2.948)
+       e =      0.7446  (0.7242, 0.765)
+
+Goodness of fit:
+  SSE: 0.6022
+  R-square: 0.9919
+  Adjusted R-square: 0.9915
+  RMSE: 0.073
+
+
+
+
+
+y2
+
+
+General model:
+     f(x) = a1/(b1+c1*exp(-d1*x))+e
+Coefficients (with 95% confidence bounds):
+       a1 =     0.00185  (-125.9, 125.9)
+       b1 =   -0.004296  (-292.3, 292.3)
+       c1 =  -0.0003929  (-26.74, 26.74)
+       d1 =      0.1289  (0.05435, 0.2035)
+       e =      0.8807  (0.8724, 0.8889)
+
+Goodness of fit:
+  SSE: 0.05024
+  R-square: 0.988
+  Adjusted R-square: 0.9876
+  RMSE: 0.0209
